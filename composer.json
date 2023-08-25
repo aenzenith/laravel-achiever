@@ -1,17 +1,17 @@
 {
     "name": "aenzenith/laravel-achiever",
     "version": "1.0.0",
-    "description": ":package_description",
+    "description": "An achievement handling system for Laravel projects with gamified theme.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Author Name",
-            "email": "author@email.com",
-            "homepage": "http://author.com"
+            "name": "Mustafa Sarı",
+            "email": "shotter32@hotmail.com",
+            "homepage": "https://aenzenith.com"
         }
     ],
     "homepage": "https://github.com/aenzenith/laravel-achiever",
-    "keywords": ["Laravel", "LaravelAchiever"],
+    "keywords": ["Laravel", "LaravelAchiever", "Achievement", "Gamification", "Gamified", "Badge"],
     "minimum-stability": "dev",
     "require": {
     },
