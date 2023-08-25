@@ -1,0 +1,40 @@
+{
+    "name": "aenzenith/laravel-achiever",
+    "version": "1.0.0",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/aenzenith/laravel-achiever",
+    "keywords": ["Laravel", "LaravelAchiever"],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Aenzenith\\LaravelAchiever\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aenzenith\\LaravelAchiever\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aenzenith\\LaravelAchiever\\LaravelAchieverServiceProvider"
+            ],
+            "aliases": {
+                "LaravelAchiever": "Aenzenith\\LaravelAchiever\\Facades\\LaravelAchiever"
+            }
+        }
+    }
+}
